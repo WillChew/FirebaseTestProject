@@ -38,6 +38,7 @@
 		03694BEC210B985A000F745B /* CoffeeRoulettteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeRoulettteViewController.swift; sourceTree = "<group>"; };
 		03694BEE210B9884000F745B /* EventConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventConfirmationViewController.swift; sourceTree = "<group>"; };
 		03694BF0210B98FC000F745B /* FirebaseStuff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseStuff.swift; sourceTree = "<group>"; };
+		03FE3209210F73D900A388E4 /* CoffeeRoulette.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoffeeRoulette.entitlements; sourceTree = "<group>"; };
 		2125583D210F6715005C8B8C /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
 		217CC7E9210CEA8800436F76 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		217CC7ED210D157100436F76 /* APIRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
@@ -79,6 +80,7 @@
 		0305C50B210A7008005A4AA4 /* CoffeeRoulette */ = {
 			isa = PBXGroup;
 			children = (
+				03FE3209210F73D900A388E4 /* CoffeeRoulette.entitlements */,
 				0305C50C210A7008005A4AA4 /* AppDelegate.swift */,
 				217CC7ED210D157100436F76 /* APIRequestManager.swift */,
 				03694BEC210B985A000F745B /* CoffeeRoulettteViewController.swift */,
@@ -149,6 +151,11 @@
 				TargetAttributes = {
 					0305C508210A7008005A4AA4 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -380,6 +387,7 @@
 			baseConfigurationReference = 2C47C535A253B4DEF044FEB8 /* Pods-CoffeeRoulette.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoffeeRoulette/CoffeeRoulette.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XHB48LCU8;
@@ -388,7 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = erazure.CoffeeRoulette;
+				PRODUCT_BUNDLE_IDENTIFIER = erazure.CoffeeRoulette.new;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -401,6 +409,7 @@
 			baseConfigurationReference = 759081F7AAD6A8D2ED88594B /* Pods-CoffeeRoulette.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CoffeeRoulette/CoffeeRoulette.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9XHB48LCU8;
@@ -409,7 +418,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = erazure.CoffeeRoulette;
+				PRODUCT_BUNDLE_IDENTIFIER = erazure.CoffeeRoulette.new;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
