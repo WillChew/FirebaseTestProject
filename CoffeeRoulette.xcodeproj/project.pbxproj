@@ -390,7 +390,7 @@
 				CODE_SIGN_ENTITLEMENTS = CoffeeRoulette/CoffeeRoulette.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9XHB48LCU8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoffeeRoulette/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -412,7 +412,7 @@
 				CODE_SIGN_ENTITLEMENTS = CoffeeRoulette/CoffeeRoulette.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9XHB48LCU8;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = CoffeeRoulette/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
